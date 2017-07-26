@@ -1,3 +1,11 @@
+# https://www.interviewbit.com/problems/palindrome-list/
+#
+# Intuition:
+# Recurse to last element of list, but also preserve first element with each call, such that when you are at last,
+# you will have the first element and last element. Now at every return call, return the next element of first element
+# This way, when you were at last, current was last and first was first but in 2nd last call, current will be second
+# last and first will be 2nd element. Keep going till you find something not matching.
+
 class Node():
     def __init__(self, data):
         self.data = data
@@ -27,15 +35,12 @@ def traverse(first):
         current = current.next_node
 
 
-
-
-
 def is_pallindrome(first):
     def _pal(first, current):
-        status = 'pallindrom'
+        status = 'pallindrome'
         if current.next_node:
             target, status = _pal(first, current.next_node)
-            if status != 'pallindrom':
+            if status != 'pallindrome':
                 return None, status
         else:
             target = first
