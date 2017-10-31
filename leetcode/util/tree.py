@@ -13,8 +13,9 @@ def array_to_tree(l, index=0):
     :param index:
     :return:
     """
-    if not l or index > len(l) - 1:
+    if not l or index > len(l) - 1 or not l[index]:
         return None
+
 
     node = TreeNode(l[index])
     node.left = array_to_tree(l, index * 2 + 1)
