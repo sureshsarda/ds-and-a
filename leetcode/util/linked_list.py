@@ -26,9 +26,9 @@ def list_from_array(arr):
 
 def print_linked_list(node):
     while node:
-        print node.val, ' ',
+        print(node.val, ' ')
         node = node.next
-    print ''
+    print('')
 
 
 if __name__ == '__main__':

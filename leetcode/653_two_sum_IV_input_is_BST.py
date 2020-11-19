@@ -16,13 +16,13 @@ class Solution(object):
         """
 
         l = list(Solution.inroder(root))
-        print l
+        print(l)
         return self.twoSum(l, k)
 
     @staticmethod
     def inroder(root):
         if root.left:
-            print 'Going left'
+            print('Going left')
             Solution.inroder(root.left)
         yield root.val
 
@@ -45,10 +45,10 @@ class Solution(object):
 
 if __name__ == '__main__':
     sol = Solution()
-    print sol.twoSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 11)
-    print sol.twoSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 12)
-    print sol.twoSum([1, 2, 3, 4, 4], 8)
-    print sol.twoSum([1, 2, 3, 4], 8)
-    print sol.twoSum([1, 2, 3, 4, 9, -1], 8)
-    print sol.twoSum([1, 1], 2)
-    print sol.twoSum([1, 1], 3)
+    print(sol.twoSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 11))
+    print(sol.twoSum([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 12))
+    print(sol.twoSum([1, 2, 3, 4, 4], 8))
+    print(sol.twoSum([1, 2, 3, 4], 8))
+    print(sol.twoSum([1, 2, 3, 4, 9, -1], 8))
+    print(sol.twoSum([1, 1], 2))
+    print(sol.twoSum([1, 1], 3))

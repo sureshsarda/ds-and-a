@@ -58,12 +58,12 @@ class Solution(object):
 if __name__ == '__main__':
     sol = Solution()
 
-    print sol.isSubtree(tree.array_to_tree([3, 4, 5, 1, 2, None, None, 0]), tree.array_to_tree([4, 1, 2]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3]), tree.array_to_tree([2, 3]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3]), tree.array_to_tree([1, 2]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([1, 2, 3]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, 6, 7]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, None, 7]))
-    print sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, 6]))
+    print(sol.isSubtree(tree.array_to_tree([3, 4, 5, 1, 2, None, None, 0]), tree.array_to_tree([4, 1, 2])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3]), tree.array_to_tree([2, 3])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3]), tree.array_to_tree([1, 2])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([1, 2, 3])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, 6, 7])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, None, 7])))
+    print(sol.isSubtree(tree.array_to_tree([1, 2, 3, 4, 5, 6, 7, None, 8]), tree.array_to_tree([3, 6])))
 
 

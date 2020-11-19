@@ -18,4 +18,4 @@ class Solution(object):
 if __name__ == '__main__':
     sol = Solution()
     for i in range(10):
-        print i, sol.climbStairs(i)
+        print(i, sol.climbStairs(i))

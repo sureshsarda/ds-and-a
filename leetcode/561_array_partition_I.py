@@ -10,7 +10,7 @@ class Solution(object):
 
 if __name__ == '__main__':
     sol = Solution()
-    print sol.arrayPairSum([1, 2, 4, 3])  # 4
-    print sol.arrayPairSum([1, 4])  # 1
-    print sol.arrayPairSum([1,4, -1, -2])  # -1
-    print sol.arrayPairSum([1,4, 0, 9, -9, -1, -2, 3])  # -5
+    print(sol.arrayPairSum([1, 2, 4, 3])  # 4)
+    print(sol.arrayPairSum([1, 4])  # 1)
+    print(sol.arrayPairSum([1,4, -1, -2])  # -1)
+    print(sol.arrayPairSum([1,4, 0, 9, -9, -1, -2, 3])  # -5)

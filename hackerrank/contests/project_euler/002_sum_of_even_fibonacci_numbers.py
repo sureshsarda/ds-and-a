@@ -39,10 +39,10 @@ def fibonacci(m=400000000000000000):
         second_last = last
         last = current
         if current % 2 == 0:
-            print str(current) + ","
+            print(str(current) + ",")
 
 
 t = int(raw_input().strip())
 for a0 in xrange(t):
     n = long(raw_input().strip())
-    print sum([x for x in numbers if x < n])
+    print(sum([x for x in numbers if x < n]))

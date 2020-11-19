@@ -19,6 +19,6 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print Solution().maxArea([1, 4, 1, 4, 15, 3, 4])
-    print Solution().maxArea([1, 4, 1, 4, 15, 3, 1, 25, 10])
-    print Solution().maxArea([1, 1, 1, 1, 15, 15])
+    print(Solution().maxArea([1, 4, 1, 4, 15, 3, 4]))
+    print(Solution().maxArea([1, 4, 1, 4, 15, 3, 1, 25, 10]))
+    print(Solution().maxArea([1, 1, 1, 1, 15, 15]))

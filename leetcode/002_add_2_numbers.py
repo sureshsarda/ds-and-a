@@ -44,21 +44,21 @@ if __name__ == '__main__':
 
     sol = Solution()
 
-    print 'Extected: 718'
+    print('Extected: 718')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([2, 4, 3]), ll.list_from_array([5, 7, 4])))
 
-    print 'Extected: 243'
+    print('Extected: 243')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([2, 4, 3]), ll.list_from_array([])))
 
-    print 'Extected: 123'
+    print('Extected: 123')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([]), ll.list_from_array([1, 2, 3])))
 
-    print 'Extected: 08388'
+    print('Extected: 08388')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([9, 5]), ll.list_from_array([1, 2, 3, 9, 9])))
 
-    print 'Extected: 12399'
+    print('Extected: 12399')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([0, 0]), ll.list_from_array([1, 2, 3, 9, 9])))
 
-    print 'Extected: 222901'
+    print('Extected: 222901')
     ll.print_linked_list(sol.addTwoNumbers(ll.list_from_array([1, 0, 9, 9]), ll.list_from_array([1, 2, 3, 9, 9])))
 

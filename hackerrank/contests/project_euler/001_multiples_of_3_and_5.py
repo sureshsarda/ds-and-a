@@ -14,4 +14,4 @@ def sum_of_divisors(n, base):
 t = int(raw_input().strip())
 for a0 in xrange(t):
     n = int(raw_input().strip())
-    print sum_of_divisors(n, 3) + sum_of_divisors(n, 5) - sum_of_divisors(n, 15)
+    print(sum_of_divisors(n, 3) + sum_of_divisors(n, 5) - sum_of_divisors(n, 15))

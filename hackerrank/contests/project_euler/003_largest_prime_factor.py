@@ -20,10 +20,10 @@ def prime_factors(n):
     return factors
 
 
-# print 10 ** 14
-# print prime_factors(10 ** 14)
+# print(10 ** 14)
+# print(prime_factors(10 ** 14))
 
 t = int(raw_input().strip())
 for a0 in xrange(t):
     n = long(raw_input().strip())
-    print max(prime_factors(n))
+    print(max(prime_factors(n)))

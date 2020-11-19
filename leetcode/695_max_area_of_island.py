@@ -1,6 +1,3 @@
-from util.test_cases import TestCase, check
-
-
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         """
@@ -64,8 +61,8 @@ class Solution(object):
 if __name__ == '__main__':
     sol = Solution()
 
-    print 'Expected: 6 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 6 ', )
+    print(sol.maxAreaOfIsland([
         [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
         [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -74,20 +71,20 @@ if __name__ == '__main__':
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
-    ])
+    ]))
 
-    print 'Expected: 17 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 17 ', )
+    print(sol.maxAreaOfIsland([
         [0, 1, 1, 0, 0, 0, 0],
         [0, 1, 0, 0, 0, 0, 0],
         [0, 1, 1, 1, 1, 1, 0],
         [0, 1, 1, 1, 0, 1, 0],
         [0, 1, 1, 1, 1, 1, 0],
         [0, 0, 0, 0, 0, 0, 0]
-    ])
+    ]))
 
-    print 'Expected: 15 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 15 ', )
+    print(sol.maxAreaOfIsland([
         [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
         [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
         [1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -96,45 +93,45 @@ if __name__ == '__main__':
         [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]
-    ])
+    ]))
 
     # Edge cases
-    print 'Expected: 0 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 0 ', )
+    print(sol.maxAreaOfIsland([
         []
-    ])
+    ]))
 
-    print 'Expected: 0 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 0 ', )
+    print(sol.maxAreaOfIsland([
         [0]
-    ])
+    ]))
 
-    print 'Expected: 1 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 1 ', )
+    print(sol.maxAreaOfIsland([
         [1]
-    ])
+    ]))
 
-    print 'Expected: 3 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 3 ', )
+    print(sol.maxAreaOfIsland([
         [1, 1],
         [0, 1]
-    ])
+    ]))
 
-    print 'Expected: 2 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 2 ', )
+    print(sol.maxAreaOfIsland([
         [0],
         [1],
         [0],
         [1],
         [1],
         [0],
-    ])
+    ]))
 
-    print 'Expected: 0 ',
-    print sol.maxAreaOfIsland([[0, 0, 0, 0, 0, 0, 0, 0]])
+    print('Expected: 0 ', )
+    print(sol.maxAreaOfIsland([[0, 0, 0, 0, 0, 0, 0, 0]]))
 
-    print 'Expected: 3 ',
-    print sol.maxAreaOfIsland([
+    print('Expected: 3 ', )
+    print(sol.maxAreaOfIsland([
         [0, 1],
         [1, 1]
-    ])
+    ]))

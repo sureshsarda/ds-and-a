@@ -57,4 +57,4 @@ def inorder(root):
 
 
 if __name__ == '__main__':
-    print inorder(array_to_tree([1, 2, 3, 4, 5, 6]))
+    print(inorder(array_to_tree([1, 2, 3, 4, 5, 6])))

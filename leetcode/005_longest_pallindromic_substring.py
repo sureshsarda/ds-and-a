@@ -27,7 +27,7 @@ class Solution(object):
                     str = s[i:possible + 1]
                     if is_pallindrome(str) and len(str) >= len(max_substring):
                         max_substring = str
-                        # print 'Checking {}'.format(possible)
+                        # print('Checking {}'.format(possible))
                         break
 
 
