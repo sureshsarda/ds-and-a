@@ -1,0 +1,13 @@
+
+# Idea
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+
+# Build related
+target/
+build/
+out/
